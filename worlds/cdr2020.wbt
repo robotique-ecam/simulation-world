@@ -1,0 +1,224 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+  basicTimeStep 8
+  FPS 30
+  defaultDamping Damping {
+  }
+  contactProperties [
+    ContactProperties {
+      material1 "table_vinyl"
+      material2 "free_wheel"
+      coulombFriction [
+        0
+      ]
+      bounce 0
+    }
+  ]
+}
+Viewpoint {
+  orientation -1 0 0 0.5
+  position 1.5 2.5 5.0
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Table {
+  rotation_girouette 3.14
+}
+RedSignal {
+  name "GOB2"
+  translation 0.3 0 0.4
+}
+RedSignal {
+  name "GOB3"
+  translation 0.45 0 1.08
+}
+RedSignal {
+  name "GOB5"
+  translation 0.67 0 0.1
+}
+RedSignal {
+  name "GOB7"
+  translation 1.005 0 1.955
+}
+RedSignal {
+  name "GOB9"
+  translation 1.1 0 0.8
+}
+RedSignal {
+  name "GOB11"
+  translation 1.335 0 1.65
+}
+RedSignal {
+  name "GOB13"
+  translation 1.605 0 1.955
+}
+RedSignal {
+  name "GOB15"
+  translation 1.73 0 1.2
+}
+RedSignal {
+  name "GOB17"
+  translation 1.935 0 1.65
+}
+RedSignal {
+  name "GOB19"
+  translation 2.05 0 0.4
+}
+RedSignal {
+  name "GOB22"
+  translation 2.55 0 0.51
+}
+RedSignal {
+  name "GOB23"
+  translation 2.7 0 1.2
+}
+RedSignal {
+  name "GOB25"
+  translation -0.067 0.132 1.45
+  rotation 1 0 0 3.1415
+}
+RedSignal {
+  name "GOB27"
+  translation -0.067 0.132 1.6
+  rotation 1 0 0 3.1415
+}
+RedSignal {
+  name "GOB29"
+  translation -0.067 0.132 1.75
+  rotation 1 0 0 3.1415
+}
+RedSignal {
+  name "GOB31"
+  translation 3.067 0.132 1.525
+  rotation 1 0 0 3.1415
+}
+RedSignal {
+  name "GOB33"
+  translation 3.067 0.132 1.675
+  rotation 1 0 0 3.1415
+}
+RedSignal {
+  name "GOB36"
+  translation 0.775 0.132 -0.067
+  rotation 1 0 0 3.1415
+}
+RedSignal {
+  name "GOB39"
+  translation 1 0.132 -0.067
+  rotation 1 0 0 3.1415
+}
+RedSignal {
+  name "GOB41"
+  translation 2.075 0.132 -0.067
+  rotation 1 0 0 3.1415
+}
+RedSignal {
+  name "GOB42"
+  translation 2.15 0.132 -0.067
+  rotation 1 0 0 3.1415
+}
+RedSignal {
+  name "GOB44"
+  translation 2.3 0.132 -0.067
+  rotation 1 0 0 3.1415
+}
+GreenSignal {
+  name "GOB1"
+  translation 0.3 0 1.2
+}
+GreenSignal {
+  name "GOB4"
+  translation 0.45 0 0.51
+}
+GreenSignal {
+  name "GOB6"
+  translation 0.95 0 0.4
+}
+GreenSignal {
+  name "GOB8"
+  translation 1.065 0 1.65
+}
+GreenSignal {
+  name "GOB10"
+  translation 1.27 0 1.2
+}
+GreenSignal {
+  name "GOB12"
+  translation 1.395 0 1.955
+}
+GreenSignal {
+  name "GOB14"
+  translation 1.665 0 1.65
+}
+GreenSignal {
+  name "GOB16"
+  translation 1.9 0 0.8
+}
+GreenSignal {
+  name "GOB18"
+  translation 1.995 0 1.955
+}
+GreenSignal {
+  name "GOB20"
+  translation 2.33 0 0.1
+}
+GreenSignal {
+  name "GOB21"
+  translation 2.55 0 1.08
+}
+GreenSignal {
+  name "GOB24"
+  translation 2.7 0 0.4
+}
+GreenSignal {
+  name "GOB26"
+  translation -0.067 0.132 1.525
+  rotation 1 0 0 3.1415
+}
+GreenSignal {
+  name "GOB28"
+  translation -0.067 0.132 1.675
+  rotation 1 0 0 3.1415
+}
+GreenSignal {
+  name "GOB30"
+  translation 3.067 0.132 1.45
+  rotation 1 0 0 3.1415
+}
+GreenSignal {
+  name "GOB32"
+  translation 3.067 0.132 1.6
+  rotation 1 0 0 3.1415
+}
+GreenSignal {
+  name "GOB34"
+  translation 3.067 0.132 1.75
+  rotation 1 0 0 3.1415
+}
+GreenSignal {
+  name "GOB35"
+  translation 0.7 0.132 -0.067
+  rotation 1 0 0 3.1415
+}
+GreenSignal {
+  name "GOB37"
+  translation 0.85 0.132 -0.067
+  rotation 1 0 0 3.1415
+}
+GreenSignal {
+  name "GOB38"
+  translation 0.925 0.132 -0.067
+  rotation 1 0 0 3.1415
+}
+GreenSignal {
+  name "GOB40"
+  translation 2 0.132 -0.067
+  rotation 1 0 0 3.1415
+}
+GreenSignal {
+  name "GOB43"
+  translation 2.225 0.132 -0.067
+  rotation 1 0 0 3.1415
+}
