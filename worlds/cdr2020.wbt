@@ -1,9 +1,10 @@
-#VRML_SIM R2020a utf8
+#VRML_SIM R2020b utf8
 WorldInfo {
   basicTimeStep 8
   FPS 30
   defaultDamping Damping {
   }
+  coordinateSystem "NUE"
   contactProperties [
     ContactProperties {
       material1 "table_vinyl"
@@ -17,208 +18,238 @@ WorldInfo {
 }
 Viewpoint {
   orientation -1 0 0 0.5
-  position 1.5 2.5 5.0
+  position 1.5 2.5 5
 }
 TexturedBackground {
+  texture "empty_office"
+  luminosity 0.8
 }
 TexturedBackgroundLight {
 }
 Table {
   rotation_girouette 3.14
 }
+Robot_1 {
+  translation 0.29 0.17 0.67
+  rotation 1 0 0 -1.57
+}
 RedSignal {
-  name "GOB2"
   translation 0.3 0 0.4
+  name "GOB2"
 }
 RedSignal {
-  name "GOB3"
   translation 0.45 0 1.08
+  name "GOB3"
 }
 RedSignal {
-  name "GOB5"
   translation 0.67 0 0.1
+  name "GOB5"
 }
 RedSignal {
-  name "GOB7"
   translation 1.005 0 1.955
+  name "GOB7"
 }
 RedSignal {
-  name "GOB9"
   translation 1.1 0 0.8
+  name "GOB9"
 }
 RedSignal {
-  name "GOB11"
   translation 1.335 0 1.65
+  name "GOB11"
 }
 RedSignal {
-  name "GOB13"
   translation 1.605 0 1.955
+  name "GOB13"
 }
 RedSignal {
-  name "GOB15"
   translation 1.73 0 1.2
+  name "GOB15"
 }
 RedSignal {
-  name "GOB17"
   translation 1.935 0 1.65
+  name "GOB17"
 }
 RedSignal {
-  name "GOB19"
   translation 2.05 0 0.4
+  name "GOB19"
 }
 RedSignal {
-  name "GOB22"
   translation 2.55 0 0.51
+  name "GOB22"
 }
 RedSignal {
-  name "GOB23"
   translation 2.7 0 1.2
+  name "GOB23"
 }
 RedSignal {
-  name "GOB25"
   translation -0.067 0.132 1.45
   rotation 1 0 0 3.1415
+  name "GOB25"
 }
 RedSignal {
-  name "GOB27"
   translation -0.067 0.132 1.6
   rotation 1 0 0 3.1415
+  name "GOB27"
 }
 RedSignal {
-  name "GOB29"
   translation -0.067 0.132 1.75
   rotation 1 0 0 3.1415
+  name "GOB29"
 }
 RedSignal {
-  name "GOB31"
   translation 3.067 0.132 1.525
   rotation 1 0 0 3.1415
+  name "GOB31"
 }
 RedSignal {
-  name "GOB33"
   translation 3.067 0.132 1.675
   rotation 1 0 0 3.1415
+  name "GOB33"
 }
 RedSignal {
-  name "GOB36"
   translation 0.775 0.132 -0.067
   rotation 1 0 0 3.1415
+  name "GOB36"
 }
 RedSignal {
-  name "GOB39"
   translation 1 0.132 -0.067
   rotation 1 0 0 3.1415
+  name "GOB39"
 }
 RedSignal {
-  name "GOB41"
   translation 2.075 0.132 -0.067
   rotation 1 0 0 3.1415
+  name "GOB41"
 }
 RedSignal {
-  name "GOB42"
   translation 2.15 0.132 -0.067
   rotation 1 0 0 3.1415
+  name "GOB42"
 }
 RedSignal {
-  name "GOB44"
   translation 2.3 0.132 -0.067
   rotation 1 0 0 3.1415
+  name "GOB44"
 }
 GreenSignal {
-  name "GOB1"
   translation 0.3 0 1.2
+  name "GOB1"
 }
 GreenSignal {
-  name "GOB4"
   translation 0.45 0 0.51
+  name "GOB4"
 }
 GreenSignal {
-  name "GOB6"
   translation 0.95 0 0.4
+  name "GOB6"
 }
 GreenSignal {
-  name "GOB8"
   translation 1.065 0 1.65
+  name "GOB8"
 }
 GreenSignal {
-  name "GOB10"
   translation 1.27 0 1.2
+  name "GOB10"
 }
 GreenSignal {
-  name "GOB12"
   translation 1.395 0 1.955
+  name "GOB12"
 }
 GreenSignal {
-  name "GOB14"
   translation 1.665 0 1.65
+  name "GOB14"
 }
 GreenSignal {
-  name "GOB16"
   translation 1.9 0 0.8
+  name "GOB16"
 }
 GreenSignal {
-  name "GOB18"
   translation 1.995 0 1.955
+  name "GOB18"
 }
 GreenSignal {
-  name "GOB20"
   translation 2.33 0 0.1
+  name "GOB20"
 }
 GreenSignal {
-  name "GOB21"
   translation 2.55 0 1.08
+  name "GOB21"
 }
 GreenSignal {
-  name "GOB24"
   translation 2.7 0 0.4
+  name "GOB24"
 }
 GreenSignal {
-  name "GOB26"
   translation -0.067 0.132 1.525
   rotation 1 0 0 3.1415
+  name "GOB26"
 }
 GreenSignal {
-  name "GOB28"
   translation -0.067 0.132 1.675
   rotation 1 0 0 3.1415
+  name "GOB28"
 }
 GreenSignal {
-  name "GOB30"
   translation 3.067 0.132 1.45
   rotation 1 0 0 3.1415
+  name "GOB30"
 }
 GreenSignal {
-  name "GOB32"
   translation 3.067 0.132 1.6
   rotation 1 0 0 3.1415
+  name "GOB32"
 }
 GreenSignal {
-  name "GOB34"
   translation 3.067 0.132 1.75
   rotation 1 0 0 3.1415
+  name "GOB34"
 }
 GreenSignal {
-  name "GOB35"
   translation 0.7 0.132 -0.067
   rotation 1 0 0 3.1415
+  name "GOB35"
 }
 GreenSignal {
-  name "GOB37"
   translation 0.85 0.132 -0.067
   rotation 1 0 0 3.1415
+  name "GOB37"
 }
 GreenSignal {
-  name "GOB38"
   translation 0.925 0.132 -0.067
   rotation 1 0 0 3.1415
+  name "GOB38"
 }
 GreenSignal {
-  name "GOB40"
   translation 2 0.132 -0.067
   rotation 1 0 0 3.1415
+  name "GOB40"
 }
 GreenSignal {
-  name "GOB43"
   translation 2.225 0.132 -0.067
   rotation 1 0 0 3.1415
+  name "GOB43"
+}
+GreenSignal {
+  translation 1.73 0 0.35
+  name "GOB45"
+}
+GreenSignal {
+  translation 1.6 0 0.14
+  name "GOB46"
+}
+GreenSignal {
+  translation 1.22 0 0.33
+  name "GOB47"
+}
+RedSignal {
+  translation 1.12 0 0.13
+  name "GOB48"
+}
+RedSignal {
+  translation 1.45 0 0.4
+  name "GOB49"
+}
+RedSignal {
+  translation 1.91 0 0.16
+  name "GOB50"
 }

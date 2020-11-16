@@ -19,7 +19,7 @@ PROTO Table [
           baseColor 0.8 0.8 0.8
           baseColorMap DEF IM_EUROBOT_VINYL_TEXTURE_PNG ImageTexture {
             url [
-              "textures/eurobot2020_vinyl_texture.png"
+              "textures/eurobot2021_vinyl_texture.png"
             ]
           }
           roughness 0.5
