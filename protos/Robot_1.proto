@@ -1,4 +1,4 @@
-#VRML_SIM R2019a utf8
+#VRML_SIM R2021b utf8
 # license: Apache License 2.0
 # license url: http://www.apache.org/licenses/LICENSE-2.0
 # This is a proto file for Webots for the Asterix
@@ -100,6 +100,7 @@ PROTO Robot_1 [
         }
       }
       Solid {
+        name "right_free_wheel"
         translation -0.08 0 -0.15
         contactMaterial "free_wheel"
         children [
@@ -116,6 +117,7 @@ PROTO Robot_1 [
         boundingObject USE FREE_WHEEL
       }
       Solid {
+        name "left_free_wheel"
         translation 0.08 0 -0.15
         contactMaterial "free_wheel"
         children [
