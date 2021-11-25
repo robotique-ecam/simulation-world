@@ -1,4 +1,4 @@
-#VRML_SIM R2019a utf8
+#VRML_SIM R2021b utf8
 PROTO Aruco [
   field SFVec3f    translation       0 0 0
   field SFRotation rotation          1 0 0 1.57
